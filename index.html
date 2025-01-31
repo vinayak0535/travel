@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+     <!-- =========SWIPER===== -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- ==FONTAWESOME==== -->
+    <script src="https://kit.fontawesome.com/092665d6f1.js" crossorigin="anonymous"></script>
+
+    <!-- =====FONTS==== -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&family=Nunito+Sans:ital,wght@0,200;0,300;1,200&family=Nunito:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+
+     <!-- ====CSS==== -->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-light">
+        <div class="container">
+          <a class="navbar-brand  fs-3" href="#"><i class="fas fa-hiking text-success fs-2"></i> Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#products">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#package">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#reviews">Reviews</a>
+              </li>
+            </ul>
+          
+            <i class="fa-solid fa-cart-shopping px-3 fs-4"></i>
+            <i class="fa-solid fa-magnifying-glass fs-4"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- =====HERO======== -->
+
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide slide">
+            <div class="box" style="background: url(images/home-bg-1.jpg)  no-repeat ;">
+              <div class="content col-md-5 float-end ">
+                  <h3>Never Stop</h3>
+                  <h1 class="text-success fw-bold">EXPLORING</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta conseq</p>
+                  <button type="button" class="btn btn-outline-dark rounded-0">Get Started</button>
+
+                </div>
+          </div>           
+          </div>
+
+          <div class="swiper-slide slide">
+          <div class="box" style="background: url(images/home-bg-2.jpg)  no-repeat ;">
+              <div class="content col-md-5 float-start ">
+                  <h3>Make Tour</h3>
+                  <h1 class="text-success fw-bold">AMAZING</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta conseq</p>
+                  <button type="button" class="btn btn-outline-dark rounded-0">Get Started</button>
+                </div>
+          </div>          
+        </div>
+
+          <div class="swiper-slide slide"> 
+         <div class="box" style="background: url(images/home-bg-3.jpg)  no-repeat ;">
+              <div class="content col-md-5 float-end ">
+                  <h3>Explore The</h3>
+                  <h1 class="text-success fw-bold">NEW WORLD</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta conseq</p>
+                  <button type="button" class="btn btn-outline-dark rounded-0">Get Started</button>
+                </div>
+          </div>          </div>
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    
+      <!-- =FEATURE=== -->
+
+      <section class="feature my-5">
+        <div class="container">
+      <h2 class="heading"><span>Adventure</span>  idea!</h2>
+
+      <div class="row justify-content-center">
+        <div class=" f-col col text-center">
+          <img class="feat" src="images/category-1.jpg" alt="">
+          <h5 class="text-success">Bungee Jump</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+        </div>
+
+        <div class=" f-col col text-center">
+          <img class="feat" src="images/category-2.jpg" alt="">
+          <h5 class="text-success">Zip Lines</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+        </div>
+
+        <div class=" f-col col text-center">
+          <img class="feat" src="images/category-3.jpg" alt="">
+          <h5 class="text-success">Canoeing</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+        </div>
+
+     
+      </div>
+    </div>
+
+    </section>
+
+    <!-- ==========ABOUT====== -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row d-md-flex align-items-center justify-content-center">
+          <div class="col ">
+            <img src="images/about-img.jpg" alt="" width="500px">
+          </div>
+
+          <div class="col">
+            <h3 class="text-success">Memorable Outdoor Experiences</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, ex quaerat quasi labore deserunt dolore corporis quisquam maxime assumenda inventore excepturi impedit blanditiis doloremque illum officiis optio tempora ipsum ipsa magni provident dolorum accusantium aspernatur! Nam unde tenetur totam deleniti.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, cupiditate laudantium! Fugit voluptatum doloribus eaque accusantium inventore temporibus similique velit.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====PRODUCTS=== -->
+
+    <section class="products my-5 py-5" id="products">
+      <div class="container">
+        <h2 class="heading">Featured <span>Products</span> </h2>
+
+        <div class="swiper pro-slider">
+          <div class="swiper-wrapper">
+
+           
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-1.jpg" alt="">
+         
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-2.jpg" alt="">
+      
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-3.JPG" alt="">
+       
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-4.JPG" alt="">
+         
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-5.jpg" alt="">
+      
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+
+            <div class="swiper-slide slide ">
+              <img src="images/product-6.jpg" alt="">
+         
+            <div class="info">
+            <h3>Survival kits</h3>
+            <h4><span>$5.00-$25.00</span></h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          </div>
+            </div>
+
+
+  
+            
+            
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- =======PACKAGES======= -->
+
+    <section class="package my-5 py-5" id="package">
+      <div class="container">
+        <h2 class="heading">Popular <span>Packages</span> </h2>
+        
+        <div class="row d-md-flex justify-content-center">
+          <div class="p-col">
+            <img src="images/img-1.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+
+          <div class="p-col">
+            <img src="images/img-2.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+
+          <div class="p-col">
+            <img src="images/img-3.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+
+          <div class="p-col">
+            <img src="images/img-4.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+
+          <div class="p-col">
+            <img src="images/img-5.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+
+          <div class="p-col">
+            <img src="images/img-6.jpg" alt="">
+            <h5>Featured Tour Package</h5>
+            <small>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis labore illum exercitationem! </small>
+            <h4><span>$250-$450</span></h4>
+            <button type="button" class="btn btn-outline-dark rounded-0">Explore Now</button>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======REVIEWS======== -->
+
+    <section class="reviews my-3 py-5" id="reviews">
+      <div class="container">
+        <h2 class="heading">Client's <span>Reviews</span> </h2>
+
+        <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-3.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-2.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-4.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-5.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-1.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolore obcaecati molestias qui nihil, autem minima reiciendis non alias rerum quod eius aliquid saepe. Perspiciatis exercitationem hic a delectus ipsum.</p>
+              <div class="user d-flex align-items-center">
+                <div class="img">
+                <img src="images/pic-6.png" alt="">
+              </div>
+              <div class="name ms-3">
+                <h5>John Deo</h5>
+                <h6><span>Designer</span></h6>
+              </div>
+              </div>
+            </div>
+
+            
+            
+            
+           
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========WHAT WE OFFER======= -->
+
+    <section class="w-offer my-3 py-5">
+      <div class="container">
+        <h2 class="heading mt-3">What We Offer</h2>
+        <div class="rows gap-3 d-md-flex">
+
+          <div class="bo">
+            <img src="images/serv-1.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+          <div class="bo">
+            <img src="images/serv-2.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+          <div class="bo">
+            <img src="images/serv-3.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+        </div>
+
+        <div class="rows gap-3 d-md-flex mt-4">
+
+          <div class="bo">
+            <img src="images/serv-4.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+          <div class="bo">
+            <img src="images/serv-5.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+          <div class="bo">
+            <img src="images/serv-6.png" alt="">
+            <h5><Span>Complete Guide</Span></h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam dolorum dolore exercitationem.</p>
+            <button type="button" class="btn btn-outline-dark rounded-0">Read More</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =======POSTS===== -->
+
+    <section class="posts my-3 py-5">
+      <div class="container">
+        <h2 class="heading">Our Daily <span>Posts</span></h2>
+
+        <div class="swiper blogs">
+          <div class="swiper-wrapper">
+           
+
+            <div class="swiper-slide slide">
+              <img src="images/img-1.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+            <div class="swiper-slide slide">
+              <img src="images/img-2.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+            <div class="swiper-slide slide">
+              <img src="images/img-3.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+            <div class="swiper-slide slide">
+              <img src="images/img-4.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+            <div class="swiper-slide slide">
+              <img src="images/img-5.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+            <div class="swiper-slide slide">
+              <img src="images/img-6.jpg" alt="">
+              <div class="when gap--3">
+                <div class="date d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-calendar"></i><p>21st May 2022</p>
+                </div>
+
+                <div class="who d-flex ms-5 pt-3">
+                  <i class="fa-solid fa-user"></i><p>By Admin</p>
+                </div>
+              </div>
+              <h5>Blog Title Goes Here</h5>
+              <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam.
+              </small>
+              <button type="button" class="btn btn-outline-dark my-3 rounded-0">Read More</button>
+
+            </div>
+
+
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- .========SUBSCRIBE==== -->
+
+    <section class="subscribe my-5 py-5">
+      <div class="container">
+        <h2 class="heading">Subscribe Now</h2>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat id aliquam sint ipsam non earum necessitatibus, libero, quaerat eveniet omnis quasi nostrum laboriosam! Incidunt sint, explicabo velit saepe tempore laudantium?</p>
+
+        <form action="" class="m-auto">
+          <input type="email" name="" placeholder="enter your email" id="" class="email">
+          <input type="submit" value="Subscirbe" class="btn">
+      </form>
+      </div>
+    </section>
+
+    <!-- IMAGES=== -->
+
+    <section class="image my-5">
+      <h2 class="heading">Our Clients</h2>
+      <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="images/client-logo-1.png" alt="">
+        </div>
+
+        <div class="col">
+          <img src="images/client-logo-2.png" alt="">
+        </div>
+
+        <div class="col">
+          <img src="images/client-logo-3.png" alt="">
+        </div>
+
+        <div class="col">
+          <img src="images/client-logo-4.png" alt="">
+        </div>
+
+        
+      </div>
+    </div>
+    </section>
+
+    <!-- ======FOOTER===== -->
+
+    
+
+    <section class="footer">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-3 mb-3">
+              <h5>Quick Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-3 mb-3">
+              <h5>Extra Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-3 mb-3">
+              <h5>Contact Info</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0">About</a></li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-3 mb-3">
+              <h5> Follow Us</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">About</a></li>
+              </ul>
+            </div>
+      
+      
+    
+          <div class="d-flex flex-column flex-sm-row  text-center  py-4 my-4 border-top">
+            <p>Created By <span class="fs-4"> Vinayak Web </span> All rights reserved.</p>
+        
+          </div>
+        </footer>
+      </div>
+      
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- =-===SWIPER JS====== -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
